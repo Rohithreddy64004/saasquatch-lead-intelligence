@@ -1,0 +1,37 @@
+.draft-personalization,
+.draft-limitations {
+  padding: 9px 10px;
+  border: 1px solid #edf0f3;
+  border-radius: 5px;
+  background: #f8fafc;
+}
+
+.draft-personalization > b,
+.draft-limitations > b {
+  color: #7b8795;
+  font-size: 8px;
+  letter-spacing: 0.5px;
+}
+
+.draft-personalization ul,
+.draft-limitations ul {
+  display: grid;
+  gap: 4px;
+  margin: 7px 0 0;
+  padding-left: 15px;
+  color: #6f7d8c;
+  font-size: 8px;
+  line-height: 1.45;
+}
+
+.draft-personalization p {
+  margin: 6px 0 0;
+  color: #8792a0;
+  font-size: 8px;
+}
+
+.draft-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
